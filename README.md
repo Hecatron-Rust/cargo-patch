@@ -11,6 +11,13 @@ Simply run:
 cargo install cargo-patch
 ```
 
+## Generating a patch using git
+
+To generate a patch file of the current uncommited changes in a git repo
+```
+git diff > mypatch.patch
+```
+
 ## Usage
 
 To patch a dependency one has to add the following
